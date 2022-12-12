@@ -22,7 +22,7 @@ from sklearn.impute import SimpleImputer
 from scipy.sparse import vstack as sparse_vstack
 import oddt
 from oddt.fingerprints import InteractionFingerprint,SimpleInteractionFingerprint
-from utils1 import  smiles_to_onehot, convert_to_graph,skip_connection,gated_skip_connection,readout,layers1,graph_convolution,morgan_fp,get_data,get_train_test,listdir,rdkit_des,get_des,TransNan
+from utils import  smiles_to_onehot, convert_to_graph,skip_connection,gated_skip_connection,readout,layers1,graph_convolution,morgan_fp,get_data,get_train_test,listdir,rdkit_des,get_des,TransNan
 import os
 warnings.filterwarnings('ignore')
 
